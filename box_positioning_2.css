@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container {
+    width: 665px;
+    height: 265px;
+    border: 5px dashed black;
+    position: relative;
+}
+
+.box {
+    width: 160px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box>img {
+    height: 40px;
+    width: 80px;
+}
+.one {
+    background-color: #fe0000;
+    position: absolute;  
+}
+.red {
+    filter: hue-rotate(300deg) brightness(400%);
+}
+.two {
+    background-color: #ff8000;
+    right: 0;
+    position: absolute;  
+}
+.orange {
+    filter:hue-rotate(350deg) brightness(150%) ;
+}
+.three {
+    background-color: #26d926;
+    bottom: 0;
+    right: 0;
+    position: absolute;    
+}
+.green {
+    filter: hue-rotate(45deg) brightness(200%);
+}
+.four {
+    background-color: #e7e618;
+    bottom: 0;
+    position: absolute;  
+}
+.yellow {
+    filter:hue-rotate(330deg) brightness(100%);
+}
+.five {
+    background-color: #32cccc;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;  
+}
+.blue {
+    filter:hue-rotate(180deg) brightness(400%);
+}

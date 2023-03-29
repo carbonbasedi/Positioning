@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+    border: 3px solid #ff1706;
+    padding: 30px;
+    position: relative;
+}
+
+.container2 {
+    position: relative;
+    height: 300px;
+    width: 100px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.one {
+    background-color: #b0e1e6;
+    position: absolute;
+    top:75px;
+    z-index: 1;
+}
+
+.two {
+    background-color: #4169e0;
+    position: absolute;
+}
+
+.three {
+    background-color: #a1522d;
+    position: absolute;
+    bottom: 0;
+}
+
+.four {
+    background-color: #695acd;
+    position: absolute;
+    bottom: 30px;
+}

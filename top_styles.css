@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto 0px;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top {
+    --offset:50px;
+    border: 1px solid black;
+    padding: 10px 30px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    position: sticky;
+    bottom: 20px;
+    margin-right: 10px;
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+}
+
+html,
+body{
+    scroll-behavior: smooth;
+}
